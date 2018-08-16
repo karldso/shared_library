@@ -1,18 +1,5 @@
 package JB.delivery
 
-import org.apache.commons.io.FilenameUtils;
-import java.sql.Timestamp
-import groovy.json.JsonOutput
-import java.util.Optional
-import hudson.tasks.test.AbstractTestResultAction
-import hudson.plugins.checkstyle.CheckStyleResultAction
-import hudson.plugins.clover.CloverBuildAction
-import hudson.plugins.warnings.WarningsResultAction
-import hudson.model.Actionable
-import groovy.xml.XmlUtil
-import groovy.json.JsonSlurper
-import hudson.tasks.junit.CaseResult
-
 @NonCPS
 def getTextMessageParam(parameter_1, parameter_2)
 {
