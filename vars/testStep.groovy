@@ -1,3 +1,3 @@
 def call(args) {
-      return ["Running the JB test shared library with argument ${textTest}"]
+      return ["Running the JB test shared library"]
 }
