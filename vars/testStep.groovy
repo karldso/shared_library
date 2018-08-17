@@ -1,3 +1,3 @@
-def call(args) {
-      return sh(script: 'echo "Running the JB test shared library with argument ${args}"', returnStdout: true)
+def call() {
+      return "Running the JB test shared library with argument ${parameter.args}"
 }
