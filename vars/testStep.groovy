@@ -1,3 +1,3 @@
 def call(args) {
-      return ["Running the JB test shared library"]
+      return sh (script: "Running the JB test shared library", returnStdout: true)
 }
